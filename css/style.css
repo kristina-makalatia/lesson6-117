@@ -1,0 +1,105 @@
+.logo {
+	display: inline-block;
+	margin-right: 50px;
+}
+.navigation {
+	display: inline-block;
+}
+.nav-li {
+	display: inline-block;
+	margin-right: 22px;
+}
+.header-wraper {
+	background-color: lightblue;
+	padding: 30px;
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 100%;
+	/*text-align: center;*/
+	z-index: 50;
+}
+
+/*თუ რგორო ვეხმარებით header-ის ნაწილს*/
+body {
+	height: 1800px;
+	/*padding-top: 76px;*/
+}
+.section-news {
+	margin-top: 76px;
+}
+
+/*position absolute & relative example*/
+.wraper-box {
+	width: 400px;
+	height: 400px;
+	background-color: yellow;
+	position: relative;
+}
+.child-box {
+	width: 150px;
+	height: 150px;
+	background-color: blue;
+	position: absolute;
+	top: 100px;
+	left: 50px;
+	z-index: 5;
+}
+.child-box2 {
+	width: 150px;
+	height: 150px;
+	background-color: red;
+	position: absolute;
+	top: 150px;
+	left: 140px;
+}
+.text-box {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+/*chat icon*/
+.image-chat {
+	height: 80px;
+}
+.chat-icon {
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+}
+
+/*image example*/
+.image {
+	width: 800px;
+}
+.text-image {
+	position: absolute;
+	top: 150px;
+	right: 100px;
+	color: red;
+	font-size: 30px;
+}
+.image-wraper {
+	position: relative;
+	width: 800px;
+	/*display: inline-block;*/
+}
+
+/*transform examples*/
+.container-box {
+	width: 400px;
+	height: 400px;
+	background-color: aqua;
+	position: relative;
+}
+.wraper-childbox {
+	width: 150px;
+	height: 150px;
+	background-color: green;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%) rotate(45deg);
+
+}
